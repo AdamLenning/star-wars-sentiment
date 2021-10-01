@@ -1,0 +1,135 @@
+2021-02-10 13:29:13,501 INFO pig.ExecTypeProvider: Trying ExecType : LOCAL
+2021-02-10 13:29:13,502 INFO pig.ExecTypeProvider: Picked LOCAL as the ExecType
+2021-02-10 13:29:13,542 [main] INFO  org.apache.pig.Main - Apache Pig version 0.17.0 (r1797386) compiled Jun 02 2017, 15:41:58
+2021-02-10 13:29:13,542 [main] INFO  org.apache.pig.Main - Logging error messages to: /home/alenning/pig_1612988953538.log
+2021-02-10 13:29:13,557 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation - user.name is deprecated. Instead, use mapreduce.job.user.name
+2021-02-10 13:29:13,670 [main] INFO  org.apache.pig.impl.util.Utils - Default bootup file /home/alenning/.pigbootup not found
+2021-02-10 13:29:13,725 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation - mapred.job.tracker is deprecated. Instead, use mapreduce.jobtracker.address
+2021-02-10 13:29:13,726 [main] INFO  org.apache.pig.backend.hadoop.executionengine.HExecutionEngine - Connecting to hadoop file system at: file:///
+2021-02-10 13:29:13,747 [main] INFO  org.apache.pig.PigServer - Pig Script ID for the session: PIG-traffic_sort_date.pig-e9a44285-fb34-4b71-807f-623236cf6058
+2021-02-10 13:29:13,748 [main] WARN  org.apache.pig.PigServer - ATS is disabled since yarn.timeline-service.enabled set to false
+2021-02-10 13:29:14,706 [main] INFO  org.apache.pig.tools.pigstats.ScriptState - Pig features used in the script: GROUP_BY
+2021-02-10 13:29:14,745 [main] INFO  org.apache.pig.newplan.logical.optimizer.LogicalPlanOptimizer - {RULES_ENABLED=[AddForEach, ColumnMapKeyPrune, ConstantCalculator, GroupByConstParallelSetter, LimitOptimizer, LoadTypeCastInserter, MergeFilter, MergeForEach, NestedLimitOptimizer, PartitionFilterOptimizer, PredicatePushdownOptimizer, PushDownForEachFlatten, PushUpFilter, SplitFilter, StreamTypeCastInserter]}
+2021-02-10 13:29:14,786 [main] INFO  org.apache.pig.impl.util.SpillableMemoryManager - Selected heap (PS Old Gen) of size 699400192 to monitor. collectionUsageThreshold = 489580128, usageThreshold = 489580128
+2021-02-10 13:29:14,824 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MRCompiler - File concatenation threshold: 100 optimistic? false
+2021-02-10 13:29:14,845 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MultiQueryOptimizer - MR plan size before optimization: 1
+2021-02-10 13:29:14,845 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MultiQueryOptimizer - MR plan size after optimization: 1
+2021-02-10 13:29:14,917 [main] INFO  org.apache.hadoop.metrics2.impl.MetricsConfig - Loaded properties from hadoop-metrics2.properties
+2021-02-10 13:29:14,971 [main] INFO  org.apache.hadoop.metrics2.impl.MetricsSystemImpl - Scheduled Metric snapshot period at 10 second(s).
+2021-02-10 13:29:14,971 [main] INFO  org.apache.hadoop.metrics2.impl.MetricsSystemImpl - JobTracker metrics system started
+2021-02-10 13:29:14,990 [main] INFO  org.apache.pig.tools.pigstats.mapreduce.MRScriptState - Pig script settings are added to the job
+2021-02-10 13:29:14,995 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation - mapred.job.reduce.markreset.buffer.percent is deprecated. Instead, use mapreduce.reduce.markreset.buffer.percent
+2021-02-10 13:29:14,995 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - mapred.job.reduce.markreset.buffer.percent is not set, set to default 0.3
+2021-02-10 13:29:14,997 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation - mapred.output.compress is deprecated. Instead, use mapreduce.output.fileoutputformat.compress
+2021-02-10 13:29:14,998 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - Reduce phase detected, estimating # of required reducers.
+2021-02-10 13:29:14,999 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - Using reducer estimator: org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.InputSizeReducerEstimator
+2021-02-10 13:29:15,003 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.InputSizeReducerEstimator - BytesPerReducer=1000000000 maxReducers=999 totalInputFileSize=706676699
+2021-02-10 13:29:15,003 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - Setting Parallelism to 1
+2021-02-10 13:29:15,003 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation - mapred.reduce.tasks is deprecated. Instead, use mapreduce.job.reduces
+2021-02-10 13:29:15,011 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - Setting up single store job
+2021-02-10 13:29:15,019 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Key [pig.schematuple] is false, will not generate code.
+2021-02-10 13:29:15,019 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Starting process to move generated code to distributed cacche
+2021-02-10 13:29:15,019 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Distributed cache not supported or needed in local mode. Setting key [pig.schematuple.local.dir] with code temp directory: /tmp/1612988955018-0
+2021-02-10 13:29:15,076 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 1 map-reduce job(s) waiting for submission.
+2021-02-10 13:29:15,084 [JobControl] WARN  org.apache.hadoop.metrics2.impl.MetricsSystemImpl - JobTracker metrics system already initialized!
+2021-02-10 13:29:15,097 [JobControl] INFO  org.apache.hadoop.conf.Configuration.deprecation - mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id
+2021-02-10 13:29:15,262 [JobControl] INFO  org.apache.hadoop.mapreduce.JobSubmitter - Cleaning up the staging area file:/tmp/hadoop/mapred/staging/alenning4186736/.staging/job_local4186736_0001
+2021-02-10 13:29:15,262 [JobControl] INFO  org.apache.hadoop.mapreduce.lib.jobcontrol.ControlledJob - PigLatin:traffic_sort_date.pig got an error while submitting 
+ENOENT: No such file or directory
+	at org.apache.hadoop.io.nativeio.NativeIO$POSIX.chmodImpl(Native Method)
+	at org.apache.hadoop.io.nativeio.NativeIO$POSIX.chmod(NativeIO.java:234)
+	at org.apache.hadoop.fs.RawLocalFileSystem.setPermission(RawLocalFileSystem.java:861)
+	at org.apache.hadoop.fs.ChecksumFileSystem$1.apply(ChecksumFileSystem.java:508)
+	at org.apache.hadoop.fs.ChecksumFileSystem$FsOperation.run(ChecksumFileSystem.java:489)
+	at org.apache.hadoop.fs.ChecksumFileSystem.setPermission(ChecksumFileSystem.java:511)
+	at org.apache.hadoop.fs.FileSystem.mkdirs(FileSystem.java:676)
+	at org.apache.hadoop.mapreduce.JobResourceUploader.mkdirs(JobResourceUploader.java:660)
+	at org.apache.hadoop.mapreduce.JobResourceUploader.uploadResourcesInternal(JobResourceUploader.java:174)
+	at org.apache.hadoop.mapreduce.JobResourceUploader.uploadResources(JobResourceUploader.java:135)
+	at org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:99)
+	at org.apache.hadoop.mapreduce.JobSubmitter.submitJobInternal(JobSubmitter.java:194)
+	at org.apache.hadoop.mapreduce.Job$11.run(Job.java:1570)
+	at org.apache.hadoop.mapreduce.Job$11.run(Job.java:1567)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1730)
+	at org.apache.hadoop.mapreduce.Job.submit(Job.java:1567)
+	at org.apache.hadoop.mapreduce.lib.jobcontrol.ControlledJob.submit(ControlledJob.java:336)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.pig.backend.hadoop.PigJobControl.submit(PigJobControl.java:128)
+	at org.apache.pig.backend.hadoop.PigJobControl.run(PigJobControl.java:205)
+	at java.lang.Thread.run(Thread.java:748)
+	at org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher$1.run(MapReduceLauncher.java:301)
+2021-02-10 13:29:15,465 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - HadoopJobId: job_local4186736_0001
+2021-02-10 13:29:15,465 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - Processing aliases Group_data,traffic
+2021-02-10 13:29:15,465 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - detailed locations: M: traffic[1,10],traffic[-1,-1],Group_data[3,13] C:  R: 
+2021-02-10 13:29:15,474 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 0% complete
+2021-02-10 13:29:15,483 [main] WARN  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - Ooops! Some job has failed! Specify -stop_on_failure if you want Pig to stop immediately on failure.
+2021-02-10 13:29:15,483 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - job job_local4186736_0001 has failed! Stop running all dependent jobs
+2021-02-10 13:29:15,483 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 100% complete
+2021-02-10 13:29:15,486 [main] WARN  org.apache.hadoop.metrics2.impl.MetricsSystemImpl - JobTracker metrics system already initialized!
+2021-02-10 13:29:15,487 [main] ERROR org.apache.pig.tools.pigstats.PigStats - ERROR 0: java.lang.IllegalStateException: Job in state DEFINE instead of RUNNING
+2021-02-10 13:29:15,488 [main] ERROR org.apache.pig.tools.pigstats.mapreduce.MRPigStatsUtil - 1 map reduce job(s) failed!
+2021-02-10 13:29:15,491 [main] INFO  org.apache.pig.tools.pigstats.mapreduce.SimplePigStats - Script Statistics: 
+
+HadoopVersion	PigVersion	UserId	StartedAt	FinishedAt	Features
+3.2.1	0.17.0	alenning	2021-02-10 13:29:14	2021-02-10 13:29:15	GROUP_BY
+
+Failed!
+
+Failed Jobs:
+JobId	Alias	Feature	Message	Outputs
+job_local4186736_0001	Group_data,traffic	GROUP_BY	Message: ENOENT: No such file or directory
+	at org.apache.hadoop.io.nativeio.NativeIO$POSIX.chmodImpl(Native Method)
+	at org.apache.hadoop.io.nativeio.NativeIO$POSIX.chmod(NativeIO.java:234)
+	at org.apache.hadoop.fs.RawLocalFileSystem.setPermission(RawLocalFileSystem.java:861)
+	at org.apache.hadoop.fs.ChecksumFileSystem$1.apply(ChecksumFileSystem.java:508)
+	at org.apache.hadoop.fs.ChecksumFileSystem$FsOperation.run(ChecksumFileSystem.java:489)
+	at org.apache.hadoop.fs.ChecksumFileSystem.setPermission(ChecksumFileSystem.java:511)
+	at org.apache.hadoop.fs.FileSystem.mkdirs(FileSystem.java:676)
+	at org.apache.hadoop.mapreduce.JobResourceUploader.mkdirs(JobResourceUploader.java:660)
+	at org.apache.hadoop.mapreduce.JobResourceUploader.uploadResourcesInternal(JobResourceUploader.java:174)
+	at org.apache.hadoop.mapreduce.JobResourceUploader.uploadResources(JobResourceUploader.java:135)
+	at org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:99)
+	at org.apache.hadoop.mapreduce.JobSubmitter.submitJobInternal(JobSubmitter.java:194)
+	at org.apache.hadoop.mapreduce.Job$11.run(Job.java:1570)
+	at org.apache.hadoop.mapreduce.Job$11.run(Job.java:1567)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1730)
+	at org.apache.hadoop.mapreduce.Job.submit(Job.java:1567)
+	at org.apache.hadoop.mapreduce.lib.jobcontrol.ControlledJob.submit(ControlledJob.java:336)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.pig.backend.hadoop.PigJobControl.submit(PigJobControl.java:128)
+	at org.apache.pig.backend.hadoop.PigJobControl.run(PigJobControl.java:205)
+	at java.lang.Thread.run(Thread.java:748)
+	at org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher$1.run(MapReduceLauncher.java:301)
+	file:/tmp/temp2025581546/tmp956383135,
+
+Input(s):
+Failed to read data from "hdfs://simplex1:9000/user/alenning/Traffic_large.csv"
+
+Output(s):
+Failed to produce result in "file:/tmp/temp2025581546/tmp956383135"
+
+Counters:
+Total records written : 0
+Total bytes written : 0
+Spillable Memory Manager spill count : 0
+Total bags proactively spilled: 0
+Total records proactively spilled: 0
+
+Job DAG:
+job_local4186736_0001
+
+
+2021-02-10 13:29:15,491 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - Failed!
+2021-02-10 13:29:15,496 [main] ERROR org.apache.pig.tools.grunt.Grunt - ERROR 1066: Unable to open iterator for alias Group_data. Backend error : java.lang.IllegalStateException: Job in state DEFINE instead of RUNNING
+Details at logfile: /home/alenning/pig_1612988953538.log
+2021-02-10 13:29:15,512 [main] INFO  org.apache.pig.Main - Pig script completed in 2 seconds and 152 milliseconds (2152 ms)
